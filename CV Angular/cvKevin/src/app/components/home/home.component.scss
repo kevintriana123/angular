@@ -1,0 +1,32 @@
+.home {
+    height: 100%;
+    overflow: scroll;
+    .secciones{
+        height: 100%;
+        width: 100%;
+        position: sticky;
+        top: 0;
+    }
+}
+.hero{
+    background-color: dimgray;
+    &>div{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height:100vh;
+        width: 100%;
+        background-image: url("/assets/images/cv_i.jpg");
+        background-position:  center center;
+        background-size: cover;
+        background-repeat:  no-repeat ; 
+    }
+}
+.about{
+    background-color: lightgray;
+}
+.proyectos{
+    background-color: darkgrey;
+}
+

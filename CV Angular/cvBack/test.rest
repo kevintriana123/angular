@@ -1,0 +1,28 @@
+
+
+GET  http://localhost:3000/api/proyectos
+
+###
+
+POST   http://localhost:3000/api/proyectos
+
+content-type: application/json
+
+{
+    "titulo": "Proyecto Prueba",
+    "descripcion": "Descripcion es",
+    "url": "google.es",
+    "url_cliente": "http.test"
+}
+
+###
+
+PUT   http://localhost:3000/api/proyectos
+
+
+###
+
+DELETE  http://localhost:3000/api/proyectos
+
+###
+GET http://localhost:3000/api/token
